@@ -12,7 +12,7 @@ const supabaseClient = window.supabase.createClient(
 
 let settings = {
   whatsapp: "5511999999999",
-  instagram: "zabella",
+  instagram: "zabellaoficial",
   email: "contato@zabella.com"
 };
 
