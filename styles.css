@@ -7,7 +7,37 @@
 .contact-links{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 .contact-links a{background:#fffdfa;border:1px solid #e3dbd1;border-radius:40px;padding:15px;display:flex;justify-content:space-between;font-size:12px}
 .contact-links a:hover{border-color:#a27658}
-@media(max-width:600px){.contact-links{grid-template-columns:1fr}}
+@media(max-width:600px){
+
+  .header{
+    height:auto;
+    min-height:76px;
+    padding:12px 15px;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+
+  .logo{
+    font-size:34px;
+  }
+
+  .header nav{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    gap:18px;
+    order:3;
+    padding-bottom:5px;
+  }
+
+  .header nav a{
+    font-size:11px;
+  }
+
+  .cart{
+    margin-left:auto;
+  }
+}
 /* =================================
    ÍCONES DE CONTATO
    ================================= */
